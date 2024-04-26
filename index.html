@@ -3,16 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Bootstrap Example</title>
+  <title>My Website with Bootstrap</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is a simple example of using Bootstrap in an HTML file.</p>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7shHrejLfBzilcvRGFqUizJMHh1w4f8VA1TtDkBt9m4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-DjzrczKWzY38SU+IrPOv/YJkE4G++L87Y5kcvZEtEtKZ4PGaRD2eLu/jYlHlu"—"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jY38PBHQrC2fAmzJt4z18jwXkAoe0++" crossorigin="anonymous"></script>
+  <header class="bg-primary text-white mb-3">
+    <div class="container">
+      <h1 class="display-4">My Website</h1>
+      <p>A simple website example</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <p>This is the main content area of the website. You can add your own content here, such as text, images, and videos.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod risus eget laoreet rutrum. Donec eget leo at libero aliquam laoreet eget vel magna. Integer ac nibh at mauris consectetur rutrum at non quam. Sed euismod risus eget laoreet rutrum.</p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jY38PBHQrC2fAmzJt4z18jwXkAoe0++" crossorigin="anonymous"></script>
 </body>
 </html>
